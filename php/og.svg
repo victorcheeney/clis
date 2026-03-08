@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">CLIs.dev</title>
+  <desc id="desc">CLIs are how AI agents get work done. The difference between chat and action is tools. Find your new favorite CLI tools on CLIs.dev.</desc>
+
+  <defs>
+    <linearGradient id="borderGlow" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#79f08a"/>
+      <stop offset="100%" stop-color="#4de7a8"/>
+    </linearGradient>
+    <radialGradient id="rightGlow" cx="78%" cy="42%" r="48%">
+      <stop offset="0%" stop-color="#103c23" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#0d1f15" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#050606" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bottomGlow" cx="20%" cy="100%" r="65%">
+      <stop offset="0%" stop-color="#0d2516" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#050606" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#050606"/>
+  <rect width="1200" height="630" fill="url(#rightGlow)"/>
+  <rect width="1200" height="630" fill="url(#bottomGlow)"/>
+  <rect x="18" y="18" width="1164" height="594" rx="18" fill="none" stroke="#0f1713" stroke-width="2"/>
+
+  <text x="96" y="94" fill="#79f08a" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="500" letter-spacing="6">THE INTERFACE LAYER FOR THE AGENT ERA</text>
+
+  <text x="96" y="230" fill="#f3f3f1" font-family="Helvetica, Arial, sans-serif" font-size="94" font-weight="700" letter-spacing="-4">CLIs are how</text>
+  <text x="96" y="340" fill="#79f08a" font-family="Helvetica, Arial, sans-serif" font-size="106" font-weight="700" letter-spacing="-5">AI agents</text>
+  <text x="96" y="450" fill="#f3f3f1" font-family="Helvetica, Arial, sans-serif" font-size="94" font-weight="700" letter-spacing="-4">get work done</text>
+
+  <text x="96" y="525" fill="#a6a8b0" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="400">The difference between chat and action is tools.</text>
+  <text x="96" y="562" fill="#a6a8b0" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="400">Find your new favorite CLI tools on CLIs.dev.</text>
+
+  <rect x="905" y="470" width="178" height="38" rx="19" fill="#0b1510" stroke="url(#borderGlow)" stroke-width="1.5"/>
+  <text x="936" y="495" fill="#79f08a" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="600">300+ CLI tools</text>
+
+  <rect x="905" y="518" width="178" height="38" rx="19" fill="#0b1510" stroke="#243329" stroke-width="1.5"/>
+  <text x="936" y="543" fill="#c6c8ce" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="500">Open source</text>
+</svg>

@@ -1,0 +1,106 @@
+name: Submit a CLI
+description: Suggest a CLI tool to add to clis.dev
+title: "Add CLI: "
+labels: ["submission"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: CLI Name
+      placeholder: e.g., lazydocker
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Canonical Source URL
+      description: GitHub repo, official docs, or product page.
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - AI & LLM Tools
+        - Agent Harnesses
+        - Cloud & Storage
+        - Containers & K8s
+        - Data Processing
+        - Databases
+        - Dev Tools
+        - Files & Navigation
+        - GitHub & Git
+        - Google Workspace
+        - HTTP & APIs
+        - Media & Video
+        - Networking
+        - Package Managers
+        - Security
+        - Shell Utilities
+        - System Monitoring
+        - Testing & QA
+        - Trading & Crypto
+        - Utilities
+    validations:
+      required: true
+
+  - type: input
+    id: install
+    attributes:
+      label: Install Command
+      placeholder: e.g., brew install lazydocker
+    validations:
+      required: false
+
+  - type: input
+    id: website
+    attributes:
+      label: Website or Docs URL
+      placeholder: https://example.com/docs/cli
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: What does this CLI do? What service or workflow does it help with? Why is it useful for humans or agents?
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: agent
+    attributes:
+      label: Agent Compatibility
+      options:
+        - label: "🔌 Has MCP Server"
+        - label: "🎯 Has Agent Skill"
+        - label: "📋 Supports JSON Output (--json flag or similar)"
+
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: e.g., Go, Rust, Python, TypeScript
+    validations:
+      required: false
+
+  - type: dropdown
+    id: official
+    attributes:
+      label: Source Type
+      options:
+        - Official vendor CLI
+        - Open-source CLI
+        - Unsure
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        Reviewed manually.

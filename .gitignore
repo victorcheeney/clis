@@ -1,0 +1,28 @@
+# Database (runtime data stays local and out of git)
+data/*.sqlite
+data/*.sqlite-wal
+data/*.sqlite-shm
+php/db/*.sqlite
+php/db/*.sqlite-wal
+php/db/*.sqlite-shm
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Old prototype
+astro/
+node_modules/

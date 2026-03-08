@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/victorcheeney/clis/security
+    about: Use private vulnerability reporting for security issues.
+  - name: Browse the directory
+    url: https://clis.dev
+    about: Search the live directory before filing a submission.
