@@ -1,5 +1,7 @@
 # clis.dev
 
+![CLIs.dev banner](.github/readme-banner.svg)
+
 > **CLIs are the action layer for AI agents.**
 > They let agents inspect systems, make changes, and verify the result.
 
